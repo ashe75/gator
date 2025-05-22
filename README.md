@@ -1,9 +1,9 @@
-#GATOR
+# GATOR
 
-##Description
+# Description
 Gator allows to follow and keep track on RSS feeds.
 
-##Installation
+# Installation
 To use gator you will need Go runtim and Postgres installed
 
 For installation you can use
@@ -14,15 +14,26 @@ You need to set up config file in your home repository wit the name ".gatorconfi
 
 Then you can run by `./gator command args`
 
-##Commands
+# Commands
+
 login $username - login user
+
 register $username - add new user
+
 reset - reset all data
+
 users - list all users
+
 agg $interval - add posts to database with this interval
+
 addfeed $name $url - add new feed
+
 feeds - list all feeds
+
 follow $url - follow feed
+
 unfollow $url - unfollow feed
+
 following - list all followed feeds
+
 browse $limit - browse $limit amount of posts
